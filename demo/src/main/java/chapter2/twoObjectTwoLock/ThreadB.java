@@ -3,16 +3,16 @@ package chapter2.twoObjectTwoLock;
 import chapter2.twoObjectTwoLock.HasSelfPrivateNum;
 
 public class ThreadB extends Thread {
-  private HasSelfPrivateNum numRef;
+    private HasSelfPrivateNum numRef;
 
-  public ThreadB(HasSelfPrivateNum numRef) {
-    super();
-    this.numRef = numRef;
-  }
+    public ThreadB(HasSelfPrivateNum numRef) {
+        super();
+        this.numRef = numRef;
+    }
 
-  @Override
-  public void run() {
-    super.run();
-    numRef.addI("b");
-  }
+    @Override
+    public void run() {
+        super.run();
+        numRef.addI("b");
+    }
 }
