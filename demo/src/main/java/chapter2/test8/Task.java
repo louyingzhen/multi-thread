@@ -1,7 +1,7 @@
 package chapter2.test8;
 
 public class Task {
-    public void otherMethod() {
+    synchronized public void otherMethod() {
         System.out.println("------------------------run---otherMethod");
     }
 
