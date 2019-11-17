@@ -8,7 +8,7 @@ public class PublicClass {
     private String password;
 
     @Data
-    class privateClass{
+    class PrivateClass{
         private String age;
         private String address;
 
